@@ -128,6 +128,7 @@
         }
         /* Non-intrusive ad slot styling kept separate from active gameplay & CTA tap targets */
         .ad-slot-frame {
+            min-height: 54px;
             border: 2.5px dashed #060911;
             background: rgba(255, 255, 255, 0.86);
             box-shadow: 3px 3px 0px #060911;
@@ -228,9 +229,8 @@
                 <button id="startBtn" type="button" class="no-wrap-badge arcade-btn w-full py-3.5 sm:py-4 rounded-2xl bg-gradient-to-r from-[#ffd60a] via-amber-300 to-[#ff3b5c] text-slate-950 font-display text-[clamp(2rem,8.5vw,2.85rem)] leading-none font-black tracking-wider cursor-pointer">
                     START
                 </button>
-
                 <!-- Below-title ad slot placeholder (separated from START so accidental taps are avoided) -->
-                <div id="titleAdSlot" data-ad-slot="title-bottom" class="ad-slot-frame w-full rounded-xl px-3 py-1.5 mt-1 flex items-center justify-center overflow-hidden gap-2 text-[10px] sm:text-[11px] font-extrabold text-slate-600 min-w-0">
+                <div id="titleAdSlot" data-ad-slot="title-bottom" class="ad-slot-frame w-full rounded-xl px-2 py-1.5 mt-1 flex items-center justify-center gap-2 text-[10px] sm:text-[11px] font-extrabold text-slate-600 min-w-0">
                     <!-- admax -->
 <div class="admax-ads" data-admax-id="18454b899401fc4e011f6e08847c4d1f" style="display:inline-block;"></div>
 <script type="text/javascript">(admaxads = window.admaxads || []).push({admax_id: "18454b899401fc4e011f6e08847c4d1f",type: "banner"});</script>
@@ -295,9 +295,8 @@
                         TITLE
                     </button>
                 </div>
-
                 <!-- Below-Game-Over-buttons ad slot placeholder (spaced below TITLE button to avoid mis-taps) -->
-                <div id="gameoverAdSlot" data-ad-slot="gameover-bottom" class="ad-slot-frame w-full rounded-xl px-3 py-1.5 mt-3.5 flex items-center justify-center overflow-hidden gap-2 text-[10px] sm:text-[11px] font-extrabold text-slate-600 min-w-0">
+                <div id="gameoverAdSlot" data-ad-slot="gameover-bottom" class="ad-slot-frame w-full rounded-xl px-2 py-1.5 mt-3.5 flex items-center justify-center gap-2 text-[10px] sm:text-[11px] font-extrabold text-slate-600 min-w-0">
                     <!-- admax -->
 <div class="admax-ads" data-admax-id="2c638b6abb9fdf6bc237afd5ef33f13d" style="display:inline-block;"></div>
 <script type="text/javascript">(admaxads = window.admaxads || []).push({admax_id: "2c638b6abb9fdf6bc237afd5ef33f13d",type: "banner"});</script>
